@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilo.css">
+	<script type="text/javascript" defer src="js/numeros.js"></script>
+	<script type="text/javascript" defer src="js/basica.js"></script>
+	<script type="text/javascript" defer src="js/cientifica.js"></script>
+	<script type="text/javascript" defer src="js/soluciona.js"></script>
+	<script type="text/javascript" defer src="js/script.js"></script>
+	<title>Calculadora</title>
+</head>
+<body>
+	<table class="calculadora"> <!-- CUERPO DE LA CALCULADORA -->
+		<tr>
+			<td colspan="6">
+				<select id="modo"> <!-- SELECCION DE MODO -->
+					<option value="1">Basica</option>
+					<option value="2">Cientifica</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="6"> <!-- RESULTADO Y OPERACION -->
+				<div id="subresultado"></div>
+				<div id="resultado"></div>
+			</td>
+		</tr>
+		<tr>  <!-- BOTONES QUE COMPONEN LA CALCULADORA -->
+			<td><button id="e" class="btn-cien">e</button></td>
+			<td colspan="2"><button id="CE" class="btn-number">CE</button></td>
+			<td colspan="2"><button id="C" class="btn-number">C</button></td>
+			<td><button id="coseno" class="btn-cien">cos</button></td>
+
+		</tr>
+		<tr>
+			<td><button id="pi" class="btn-cien">π</button></td>
+			<td colspan="2"><button id="borrar" class="btn-number">⌫</button></td>
+			<td><button id="masMenos" class="btn-bas">+/-</button></td>
+			<td><button id="division" class="btn-bas">/</button></td>
+			<td><button id="seno" class="btn-cien">sen</button></td>
+		</tr>
+		<tr>
+			<td><button id="Rnd" class="btn-cien">Rnd</button></td>
+			<td><button id="siete" class="btn-number">7</button></td>
+			<td><button id="ocho" class="btn-number">8</button></td>
+			<td><button id="nueve" class="btn-number">9</button></td>
+			<td><button id="multiplicacion" class="btn-bas">X</button></td>
+			<td><button id="tan" class="btn-cien">tan</button></td>
+		</tr>
+		<tr>	
+			<td><button id="factorial" class="btn-cien">!</button></td>	
+			<td><button id="cuatro" class="btn-number">4</button></td>
+			<td><button id="cinco" class="btn-number">5</button></td>
+			<td><button id="seis" class="btn-number">6</button></td>
+			<td><button id="resta" class="btn-bas">-</button></td>
+			<td rowspan="2"><button id="mod" class="btn-cien">mod</button></td>
+		</tr>	
+		<tr>
+			<td><button id="ln" class="btn-cien">ln</button></td>
+			<td><button id="uno" class="btn-number">1</button></td>
+			<td><button id="dos" class="btn-number">2</button></td>
+			<td><button id="tres" class="btn-number">3</button></td>
+			<td><button id="suma" class="btn-bas">+</button></td>
+		</tr>
+		<tr>
+			<td><button id="log" class="btn-cien">log</button></td>
+			<td><button id="cero" class="btn-number">0</button></td>
+			<td><button id="punto" class="btn-number">.</button></td>
+			<td colspan="2"><button id="igual" class="btn-bas">=</button></td>
+			<td rowspan="2"><button id="potenciaBase" class="btn-cien">a^b</button></td>
+		</tr>
+		<tr>
+			<td><button id="potencia" class="btn-cien">2^a</button></td>
+			<td><button id="inversa" class="btn-bas">1/x</button></td>
+			<td><button id="raiz" class="btn-bas">√</button></td>
+			<td><button id="porcentaje" class="btn-bas">%</button></td>
+			<td><button id="M" class="btn-bas">M</button></td>
+		</tr>
+		<tr>
+		</tr>
+	</table>
+	</body>
+</html><
