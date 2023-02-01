@@ -3,9 +3,8 @@
 	src: url(calculator/Calculator.ttf);
 }
 body{
-	background-image: url("https://wallpaper.dog/large/5529077.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background: url("https://wallpaper.dog/large/5529077.jpg") no-repeat center center fixed;
+	background-size: cover;
 }
 
 .calculadora{
